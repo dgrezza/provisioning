@@ -1,0 +1,11 @@
+ec2_keypair: "wordpress"
+ec2_security_group: "sg-66178f01"
+ec2_instance_type: "t2.micro"
+ec2_image: "ami-52d4802e"
+ec2_vpc : "vpc-be76e1da"
+ec2_subnet_ids: ['subnet-2faeea59']
+ec2_region: "ap-southeast-1"
+ec2_tag_Name: "Wordpress"
+ec2_tag_Type: "Docker"
+ec2_tag_Environment: "production"
+ec2_volume_size: 16
